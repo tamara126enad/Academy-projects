@@ -1,0 +1,190 @@
+html {scroll-behavior: smooth;}
+
+body{ margin: 0;
+padding: 0;
+background-image:linear-gradient(to right,  #93B5C6 ,#E4D8DC , #FFE3E3);
+/* background-color:#E4D8DC; */
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+.container {
+    width: 99.9%;
+    /* padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; */
+  }
+
+.seccon { 
+    /* background-color:#E4D8DC; */
+    width: 99.5%;
+    height: 280px;
+    border-bottom-left-radius: 150%;
+    border-bottom-right-radius: 150%; 
+    border: 4px #e9cdcd solid;
+    border-top: none;
+    box-shadow: #FFE3E3 0 15px 20px;
+    font-family: Georgia ;   
+}
+
+.bg-opc{ background-image: url("../img/headphoto.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    display: grid;
+    grid-template-rows:80px 80px 80px;
+    justify-content: center;
+    align-items: center;  
+    border-bottom-left-radius: 150%;
+    border-bottom-right-radius: 150%;  
+    height: 100%;
+    width: 100%;
+    background-size: 100% 50%;
+    background-position:top; 
+    color: #fff;
+ }
+
+.nav {  display: flex;
+  justify-content: space-between;align-items: center;
+  /* flex-wrap: wrap; */
+   margin-top:-42px; 
+  list-style: none;
+  width: 150%;
+  height: 15px;
+  font-size: 20px;
+  color:darkred;
+  font-weight: bold;
+  margin-left: -25%; 
+ }
+.nav-bar a{padding-right: 20px;}
+
+.logo {width:40px; height: 40px;}
+
+
+.cimg{border-radius: 100%;
+border: 3px solid #E4D8DC;
+box-shadow: #FFE3E3 0 0 20px;
+width: 100px;
+height: 100px; 
+margin: 0 40%;
+}
+
+h4{margin: 0 40%;}
+
+.main {display: flex;
+     flex-wrap: wrap;     
+}
+.bd{border:2px #000 solid;
+  border-top: none;
+  padding:4px;}
+
+.main h4 {margin-top: 4px;}
+
+.center{justify-content: center;
+align-items: center;
+width: 55%;
+margin-left: 24%;
+padding: 4px;
+}
+
+.row { display: grid;
+    grid-template-columns: repeat(3, 25%);
+justify-content: center;
+font-size: large;   
+ }
+
+hr{margin-top:33px;
+width: 120%;
+right: 200px;}
+
+.col{
+    width: 95%;
+    padding-left:15px;
+    padding-right:55px; 
+    /* text-align: center; */
+  } 
+
+.col h3 {color:#3f51b5;
+  letter-spacing: 2px;
+text-align: center;}
+
+.col hr{width: 90%;}
+
+.img-sm{width: 200px;
+    height: 100px;
+  display: block;}
+
+.r-m {font-size: 14px;
+border: 1px solid #000;
+padding-right: 15px;
+}
+.r-m:hover{border: 3px groove;}
+
+/* .row:nth-child(6){width: 108%;} */
+a {text-decoration: none; }
+
+ul { list-style: none; }
+
+blockquote{font-size: 15px; font-style: italic;}
+
+.l-last{width: 99%;}
+
+.t-footer{ display: flex;
+    flex-flow: row ;
+    padding-left: 28%; 
+   padding-bottom: 20px;
+  }
+.t-footer a {font-size: 32px;
+padding: 5px;}
+
+.b-footer{ background: #90E0EF;
+  padding-left: 50%; 
+}
+
+
+.fa {color: #3f51b5;}
+
+@media (min-width: 320px)and (max-width : 576px){
+  .container,nav, footer{max-width: auto;}  h1{font-size: 15px;}
+    .row{display: block;} /*.col:nth-child(3){display: none;} */
+   .img-sm{display: block;} 
+   .seccon {display: block;font-size: 15px;} 
+   .r-footer{padding-right: 10px;}
+
+   ul:nth-child(3){display: block; padding-left: 0;}
+  }
+/* Small devices (landscape phones, 320px and up)*/
+ @media (min-width: 320px)and (max-width : 576px){
+  .container,footer{max-width: auto;}  h1{font-size: 15px;}
+    .row{display: block;} /*.col:nth-child(3){display: none;} */
+   .img-sm{display: block;} 
+   ul:nth-child(3){display: block; padding-left: 0;}
+   .r-footer{padding-right: 10px;}
+  }
+/* Small devices (landscape phones, 576px and up)*/
+    @media (min-width: 577px)and (max-width : 676px){
+     .bd{width: 40%; font-size: 15px; margin-left: 33%;}
+  }  
+  
+  /* Medium devices (tablets, 768px and up)*/
+   /* @media (min-width: 768px)and (max-width :675px) {
+    .bd{width: 40%; font-size: 15px;} /*.col:nth-child(3){display: none;} */
+   /*.img-sm{display: block;} 
+    } */
+  
+  /* Large devices (desktops, 992px and up)*/
+  /* @media (min-width: 992px) {
+    .container, main, section, footer {
+      max-width: 960px;
+    }
+    img{width: 100%;}
+  } */
+  /* Extra large devices (large desktops, 1200px and up)*/
+  /* @media (min-width: 1200px) {
+    .container, main, section, footer {
+      max-width: 1140px;
+    }
+    img{width: 100%;}
+  } */ 
+
+/****************************************************************************************************************************/
