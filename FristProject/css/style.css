@@ -56,12 +56,13 @@ background-attachment: fixed;
   font-weight: bold;
   margin-left: -25%; 
  }
-.nav-bar a{padding-right: 20px;}
+.nav-bar a{padding-right: 20px;
+font-size: 15px;}
 
-.logo {width:40px; height: 40px;}
+.logo {width:50px; height: 50px;}
 
 
-.cimg{border-radius: 100%;
+.t-img {border-radius: 100%;
 border: 3px solid #E4D8DC;
 box-shadow: #FFE3E3 0 0 20px;
 width: 100px;
@@ -69,7 +70,7 @@ height: 100px;
 margin: 0 40%;
 }
 
-h4{margin: 0 40%;}
+h4 {margin: 0 40%;}
 
 .main {display: flex;
      flex-wrap: wrap;     

@@ -8,23 +8,61 @@
     <title>Skills</title>
 
     <style>
-        .progress {width: 200px;
-                   height: 20px;
-                   background-color: pink;
+
+
+.contain{justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+border: 3px solid silver;
+border-left: groove;}
+        .progress {position: relative;
+             width: 60%;
+                   height: 40px;
+                   background-color: rgb(114, 110, 111);
                    border-radius: 10px;  }
+
+  .prog-fill{
+      position: absolute;
+      color:#000;
+      background-color:#42a3bb;
+      width: 100px;  height: 40px;
+      border-radius: 10px;}
+
+     .prog-text {color: #000;
+    background: none;}
+
+.HTML{ background-color:#42a3bb;}
+.CSS{ background-color:#42a3bb;}
+.JS{ background-color:#42a3bb;}
+.PHP{ background-color:#42a3bb;}
+.VB{ background-color:#42a3bb;}
     </style>
 </head>
 <body>
-
+<div class="contain">
     <div class="progress">
-        <div class="prog-fill">
-            <span class="prog-text">100%</span>
-        </div>
+        <div class="prog-fill HTML">HTML</div>
+ </div><br>
+ <div class="progress">
+    <div class="prog-fill CSS">CSS</div>
+</div><br>
+<div class="progress">
+    <div class="prog-fill Photoshop">Photoshop</div>
+</div><br>
+<div class="progress">
+    <div class="prog-fill JS">JS</div>
+</div><br>
+<div class="progress">
+    <div class="prog-fill PHP">PHP</div>
+</div><br>
+<div class="progress">
+    <div class="prog-fill VB">VB.NET</div>
+</div><br>
 
 
-    </div>
+   
 
-
+</div>
     
     
 </body>
