@@ -12,15 +12,21 @@ It consists of a index page that contains images and links.
 - Skills: HTML / CSS / JS / PHP /VB.net /Adobe Photoshop
 
  Wireframe of index page :
+
 (![Wireframe](/imgs/wireframe.png))
+
  Mockup of index page :
+
 (![mockup](/imgs/mockup.png)) 
 
 
  Wireframe of skill page : 
+
 (![Wireframe1](/imgs/wireframe1.png))
+
 Mockup of skill page :
-(![mockup1](/imgs/mockup1.png)) 
+
+(![mockup1](/imgs/mockup2.png)) 
 
 
 
