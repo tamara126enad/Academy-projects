@@ -4,39 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- meta tag don't miss it  --------------------------------------------------------------------->
+   <!-- SEO -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="FristProject/css/style.css">
     <link rel="icon" href="FristProject/img/tam.png">
     <title>MY Page</title>
+
 </head>
 
 
 <body>
-    <!-- <div class="container"> -->
-        <header>
-            <div class="seccon bg-opc">
-               <nav class="nav">
-                   <span><img src="FristProject/img/logo.png" alt="logo" class="logo"/></span>
-                        <span>Tamara Enad Al-Shabatat</span>
-                        <span class="nav-bar">
-                    <a href="#edu">Education</a>
-                    <a href="#proj">Projects</a>
-                    <a href="">Skills</a>
-                    <a href="#exp">Experience</a>
-                    <a href="#footer">About Me</a>
-                    
-                </span>
-                </nav>
+<header>
+    <header>
+        <div class="seccon bg-opc">  
+           
+             <h1 class="m-1">Tamara Enad Al-Shabatat</h1>    
+                 <img src="FristProject/img/tama.png" class="t-img" alt="tamara image" />
+                <h5  class="m-1" style="margin-left: 45%;">Full Stack Developer</h5>
+                <nav class="t-nav">
+                     <span class="nav-bar">
+                     <a href="#edu">Education</a>
+                     <a href="#proj">Projects</a>
+                     <a href="FristProject/pages/skills.html">Skills</a>
+                     <a href="#exp">Experience</a>
+                     <a href="#footer">About Me</a>
+                 </span>
+                 </nav>     
+        </div>
+</header>
                 
-                     <img src="FristProject/img/tama.png" class="t-img" alt="tamara image" />
-                    <h4>Full Stack Developer</h4>
-                             
-            </div>
-        </header>
 
         <!------- Main ------------------------------------------------------------------>
         <main class="main center">
+
+
+            <aside>
+                <div class="sc-bar">
+                    <a href="#exp">Experience</a>
+                    <a href="#pub">Publications</a>
+                    <a href="#footer">About Me</a> 
+                    <a href="#edu">Education</a>
+                    <a href="#proj">Projects</a>
+                    <a href="FristProject\pages\skills.html">Skills</a>     
+                        
+                </div>
+            </aside>
             <section>
 
                 <div class="bd"> <b>Objectives</b>
@@ -85,12 +97,14 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col"><img src="FristProject/img/proj1.png" alt="code" class="img-sm">University Announcement System, Graduation project Tafila Technical University<br>
+                        <div class="col"><img src="FristProject/img/proj1.png" alt="code" class="img-sm">University Announcement System, Graduation project Tafila Technical University<br><small>lang: HTML/CSS/PHP<br>
+                        DB:Oracle</small>
                             
                         </div>
                         <div class="col">                            
                          </div>
-                        <div class="col"><img src="FristProject/img/proj2.png" alt="code" class="img-sm"> Ticket Reservation System
+                        <div class="col"><img src="FristProject/img/proj2.png" alt="code" class="img-sm"> Ticket Reservation System<br><small>lang: HTML/CSS/PHP<br>
+                        </small>
                         </div>
                     </div>
 
@@ -119,15 +133,31 @@
 
 
                     <div class="row">
-                        <div class="col">Ministry of Education,
-                            Computer Teacher,<br>
-                            Sep2019-Jun2022 </div>
-                        <div class="col">Teaching and Research Assistant<br>
-                        Tafila Technical University<br>April 2016-Aug 2018 
+                        <div class="col">
+                            <hr>
                         </div>
-                        <div class="col"> Tafila Development Foundation<br>
-                        Sep 2014 - May2015 </div>
+                        <div class="col" id="pub">
+                            <h3>Publications</h3>
+                        </div>
+                        <div class="col">
+                            <hr>
+                        </div>
                     </div>
+                    <div class="row">
+                        <div class="col">Assessing the effectiveness and usability of using pair programming to improve programming language learning ...<br>
+                            Jun 2017 <br><small>
+                                <a  class="read" href="http://www.jatit.org/volumes/Vol95No12/19Vol95No12.pdf">Read More</a></small>
+                            </div>
+
+                        <div class="col"><!--- no data----->    </div>
+
+                        <div class="col"> Review of Literature on Software Quality<br>
+                            Oct 2018
+                            <br><small>
+                                <a class="read" href="https://www.researchgate.net/publication/328495821_Review_of_Literature_on_Software_Quality">Read More</a></small>
+                        </div>
+                    </div>
+
                     <!-- <hr> -->
                 </div>
             </section>
@@ -153,8 +183,9 @@
                     </li>
                 </ul>
                 <ul class="r-footer">
-                     <blockquote>"Let me tell you something, My Friend. Always be hopeful."</blockquote> 
+                     <li><blockquote>"Let me tell you something, My Friend. Always be hopeful."</blockquote> </li>
             </ul>
+
             </div>
             
             <div class="b-footer">
@@ -162,6 +193,12 @@
             </div>
 
         </footer>
+
+
+    
+
+
+
 
     </div>
 
