@@ -4,53 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <!-- SEO -->
+    <meta name="keywords" content="protfolio, cv, tamara, developer, html, css">
+    <meta name="description" content="This is a Tamara Protfolio using HTML and CSS">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.0.0-web/css/all.css">
     <link rel="stylesheet" href="FristProject/css/style.css">
     <link rel="icon" href="FristProject/img/tam.png">
-    <title>MY Page</title>
-
+    <title>MY Portfolio Page</title>
 </head>
 
 
 <body>
-<header>
-    <header>
-        <div class="seccon bg-opc">  
-           
-             <h1 class="m-1">Tamara Enad Al-Shabatat</h1>    
-                 <img src="FristProject/img/tama.png" class="t-img" alt="tamara image" />
-                <h5  class="m-1" style="margin-left: 45%;">Full Stack Developer</h5>
-                <nav class="t-nav">
-                     <span class="nav-bar">
-                     <a href="#edu">Education</a>
-                     <a href="#proj">Projects</a>
-                     <a href="FristProject/pages/skills.html">Skills</a>
-                     <a href="#exp">Experience</a>
-                     <a href="#footer">About Me</a>
-                 </span>
-                 </nav>     
-        </div>
-</header>
-                
 
-        <!------- Main ------------------------------------------------------------------>
+       <header class="bg f-w">
+            <div class="headd">
+                <div class="hd"> 
+                 <nav class="t-nav bg f-w">
+                        <a href="#edu">Education</a>
+                        <a href="#proj">Projects</a>
+                        <a href="#exp">Experience</a>
+                        <a href="#pub">Publications</a>
+                        <a href="FristProject/pages/skills.html" >Skills</a>
+                        <a href="#footer">About Me</a>
+                </nav></div>
+                <div class="hd"><img src="FristProject/img/tama.png" class="t-img" alt="tamara image" /></div>
+                <div class="hd"><h2>Tamara Enad Al-Shabatat</h2><h5>Full Stack Developer</h5></div>
+ 
+            </div>
+        </header>
+        <!------- -------------------------- Main---------------------------------------->
         <main class="main center">
-
-
-            <aside>
-                <div class="sc-bar">
-                    <a href="#exp">Experience</a>
-                    <a href="#pub">Publications</a>
-                    <a href="#footer">About Me</a> 
-                    <a href="#edu">Education</a>
-                    <a href="#proj">Projects</a>
-                    <a href="FristProject\pages\skills.html">Skills</a>     
-                        
-                </div>
-            </aside>
             <section>
-
                 <div class="bd"> <b>Objectives</b>
                     <p>
                         To gain confidence and fame using my potential in the field of “Web Development”, and express my
@@ -59,29 +43,40 @@
                         application design.
                     </p>
                 </div>
+
                 <div class="sec-2">
                     <div class="row">
-                        <div class="col"><hr></div>
-                        <div class="col" id="edu"><h3>Education</h3></div>
-                        <div class="col"><hr></div>
-                    </div>
+                        <div class="col">
+                            <hr>
+                        </div>
+                        <div class="col" id="edu">
+                            <h3>Education</h3>
+                        </div>
+                        <div class="col">
+                            <hr>
+                        </div>
+                    </div> 
                     <div class="row">
-                        <div class="col">Orange Coding Academy,<br>
+                        <div class="col">
+                            <div class="box">
+                            Orange Coding Academy,<br>
                             Internet Programming <br>Feb 2022 - Until now<br><small>
-                           <a href="https://yo.orange.jo/orange-coding-academy">Orange Coding</small></a>
-                       </div>
-                        <div class="col">Mu’tah University,<br>Computer Science <br>Sep 2017-May 2020<small> 
-                            <a href="https://www.mutah.edu.jo/Home.aspx">mutah.edu.jo</a></small>
-                        </div> 
-                        <div class="col">Tafila Technical University,
-                             Computer Info. System<br>Sep 2011-June 2015,<br><small>
-                         <a href="http://www.ttu.edu.jo/en/">ttu.edu.jo</a></small>
-                        </div> 
-                       
-                           
-<!-- 
-                        <div class="col"> <div class="col"></div>
-                            </div> -->
+                                <a href="https://yo.orange.jo/orange-coding-academy" target="_blank">Orange Coding</small></a>
+                        </div></div>
+
+                        <div class="col">
+                            <div class="box">
+                            Mu’tah University,<br>Computer Science <br>Sep 2017-May 2020<br>
+                            <small><a href="https://www.mutah.edu.jo/Home.aspx" target="_blank" >mutah.edu.jo</a></small>
+                            </div> </div>
+
+                        <div class="col">
+                            <div class="box">
+                            Tafila Technical University,
+                            Computer Info. System<br>Sep 2011-June 2015,<br><small>
+                                <a href="http://www.ttu.edu.jo/en/" target="_blank">ttu.edu.jo</a></small>
+                        </div></div>
+
                     </div>
                     <!-- <hr> -->
 
@@ -94,21 +89,28 @@
                         </div>
                         <div class="col">
                             <hr>
-                        </div>
-                    </div>
+                        </div>  </div>
+                        
                     <div class="row">
-                        <div class="col"><img src="FristProject/img/proj1.png" alt="code" class="img-sm">University Announcement System, Graduation project Tafila Technical University<br><small>lang: HTML/CSS/PHP<br>
-                        DB:Oracle</small>
-                            
-                        </div>
-                        <div class="col">                            
-                         </div>
-                        <div class="col"><img src="FristProject/img/proj2.png" alt="code" class="img-sm"> Ticket Reservation System<br><small>lang: HTML/CSS/PHP<br>
-                        </small>
-                        </div>
-                    </div>
+                        <div class="box med" style="width: 88%; margin-left: 4%;">
+                        <div class="col"><img src="FristProject/img/proj1.png" alt="code" class="img-proj">University
+                            Announcement System, Graduation project Tafila Technical University<br><small>lang:
+                                HTML/CSS/PHP<br>
+                                DB:Oracle</small>
+                        </div></div>
 
-                    <!-- <hr> -->
+                        <div class="col">
+                            <div class="box">
+                                <img src="FristProject/img/proj0.jpg" alt="code" class="img-proj">Maze game<br><small>lang:
+                                    VB.NET<br> </small>
+                            </div> </div>
+
+                        <div class="col">
+                            <div class="box"><img src="FristProject/img/proj2.png" alt="code" class="img-proj"> Ticket
+                            Reservation System<br><small>lang: HTML/CSS/PHP<br>
+                            </small>
+                        </div></div> </div>
+
                     <div class="row">
                         <div class="col">
                             <hr>
@@ -121,14 +123,17 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col">Ministry of Education,
+                        <div class="col">
+                            <div class="box">
+                                Ministry of Education,
                             Computer Teacher,<br>
-                            Sep2019-Jun2022 </div>
-                        <div class="col">Teaching and Research Assistant<br>
-                        Tafila Technical University<br>April 2016-Aug 2018 
-                        </div>
-                        <div class="col"> Tafila Development Foundation<br>
-                        Sep 2014 - May2015 </div>
+                            Sep2019-Jun2022 </div></div>
+                        <div class="col"><div class="box">Teaching and Research Assistant<br>
+                            Tafila Technical University<br>April 2016-Aug 2018
+                        </div></div>
+                        <div class="col"> <div class="box">Tafila Development Foundation<br>
+                            ICDL Trainer<br>
+                            Sep 2014 - May2015 </div></div>
                     </div>
 
 
@@ -143,22 +148,23 @@
                             <hr>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col">Assessing the effectiveness and usability of using pair programming to improve programming language learning ...<br>
-                            Jun 2017 <br><small>
-                                <a  class="read" href="http://www.jatit.org/volumes/Vol95No12/19Vol95No12.pdf">Read More</a></small>
-                            </div>
-
-                        <div class="col"><!--- no data----->    </div>
-
-                        <div class="col"> Review of Literature on Software Quality<br>
-                            Oct 2018
-                            <br><small>
-                                <a class="read" href="https://www.researchgate.net/publication/328495821_Review_of_Literature_on_Software_Quality">Read More</a></small>
+                    <div class="pub-1">
+                        <!-- <div class="col"> -->
+                            <div class="box pub-s" >
+                                <ul>
+                                    <li> * Assessing the effectiveness and usability of using pair programming to improve
+                            programming language learning ...<br>
+                            Jun 2017 <small>
+                                <a class="read" href="http://www.jatit.org/volumes/Vol95No12/19Vol95No12.pdf" target="_blank">Read
+                                    More ... </a></small></li> <br>
+                                    <li>* Review of Literature on Software Quality<br>
+                                        Oct 2018
+                                        <small>
+                                            <a class="read"
+                                                href="https://www.researchgate.net/publication/328495821_Review_of_Literature_on_Software_Quality" target="_blank">Read
+                                                More ... </a></small></li>
+                                   </ul>
                         </div>
-                    </div>
-
-                    <!-- <hr> -->
                 </div>
             </section>
         </main>
@@ -167,40 +173,41 @@
         <!------- Footer ------->
         <footer class="footer" id="footer">
             <div class="t-footer">
+                <div class="contact">
                 <ul>
                     <li style="margin-top :-20px; color:#3f51b5; padding-bottom: 5px; font-size:20px;">Contact Me</li>
-                    <li><i class="fa fa-phone-square"> </i>+962 778-090-511</li>
-                    <li><i class="fa fa-map-marker"> </i>Jordan, Aqaba</li>
+                    <li><i class="fa fa-phone-square">&nbsp; </i>+962 778-090-511</li><br>
+                    <li><i class="fa fa-map-marker">&nbsp; </i>Jordan, Aqaba</li>
                 </ul>
+            </div>
+            <div class="follow">
                 <ul>
                     <li style="margin-top :-20px; color:#3f51b5; padding-bottom: 5px; font-size:20px;">Follow Me</li>
-                    <li> <a href="https://www.linkedin.com/in/tamara-al-shabatat-060452123/"><span
+                    <li> <a href="https://www.linkedin.com/in/tamara-al-shabatat-060452123/" target="_blank"><span
                                 class="fa fa-linkedin-square"></span></a>
-                        <a href="https://github.com/tamara126enad"><span class="fa fa-github"></span></a>
-                        <a href="https://twitter.com/tamarashbat"><span class="fa fa-twitter" aria-hidden="true"></span></a>
-                        <a href="https://m.facebook.com/TamaraAlShbat?__tn__=R-R"><span class="fa fa-facebook-official" aria-hidden="true"></span></a>
-
+                        <a href="https://github.com/tamara126enad" target="_blank"><span class="fa fa-github"></span></a>
+                        <a href="https://twitter.com/tamarashbat" target="_blank"><span class="fa fa-twitter"
+                                aria-hidden="true"></span></a>
                     </li>
                 </ul>
+                </div>
+                <div class="quo">
                 <ul class="r-footer">
-                     <li><blockquote>"Let me tell you something, My Friend. Always be hopeful."</blockquote> </li>
-            </ul>
-
+                    <li>
+                        "Let me tell you something,<br>
+                         My Friend. <br>
+                        &nbsp;A&nbsp;l&nbsp;w&nbsp;a&nbsp;y&nbsp;s&nbsp;&nbsp; b&nbsp;e&nbsp;&nbsp; h&nbsp;o&nbsp;p&nbsp;e&nbsp;f&nbsp;u&nbsp;l&nbsp;"
+                    </li>
+                </ul>
+                    </div>
             </div>
-            
+
             <div class="b-footer">
-                Jordan,2022
+               2022
             </div>
 
         </footer>
-
-
-    
-
-
-
-
-    </div>
+        </div>
 
 </body>
 
